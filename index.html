@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    
+    <title>Decodificador de Texto</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/alura-logo.png" alt="logo alura">
+    </header>
+    <h1>Decodificador de Textos</h1>
+    <main class="principal">
+       
+        
+        <section class="principal__campo-de-texto">
+      
+           
+            
+            <div class="principal__campo-de-texto__input">
+                <textarea placeholder='Digite seu texto' id="texto" ></textarea>
+            </div>
+            
+            
+            
+            
+            <p class="principal__campo-de-texto__paragrafo"> 
+                <img class='principal__campo-de-texto__paragrafo__imagem-exclamacao' src="./assets/ponto-exclamacao.png" alt="imagem ponto de exclamação"> 
+                Somente letras minúsculas e sem acento!
+            </p>
+            <div class="principal__campo-de-texto__botao">
+                
+                <button id ='btnCriptografar'   class="principal__campo-de-texto__botao__criptografar"   >Criptografar</button>
+                
+                <button id='btnDescriptografar' class="principal__campo-de-texto__botao__descriptografar">Descriptografar</button>
+                
+            </div>
+            
+        
+        
+        </section>
+        <section class="principal__resultado">
+            <div class="principal__resultado__resultado" id="principal__resultado">
+                <img class="principal__resultado__imagem" src="./assets/imagem-1.png" alt="imagem-1">
+                <p class="principal__resultado__paragrafo"><strong>Nenhuma Mensagem encontrada</strong></p>
+                <p class="principal__resultado__paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                
+            </div>
+            <div class="principal__resultado__resultado__botao-copiar">
+                 <button id ='btnCopiar'  class="botao-copiar">Copiar</button>
+            </div>
+           
+        </section>
+
+    </main>
+    <footer>
+        @Jonathan Hayama
+    </footer>
+    
+    <script src="./app.js"></script>
+
+</body>
+</html>
